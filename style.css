@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Signika", sans-serif;;
+}
+
+.bar {
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(228, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar > p {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.color {
+    width: 100vw;
+    height: 42vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.color > div {
+    height: 170px;
+    width: 170px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.input > input[type="text"] {
+    margin-top: 20px;
+    height: 30px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+
+.input > input:focus {
+    outline: none;
+    background-color: rgb(242, 241, 241);
+}
+
+.input > input[type="submit"] {
+    margin-top: 20px;
+    height: 30px;
+    width: auto;
+    padding: 0 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.input > input[type="submit"]:hover {
+    background-color: rgb(228, 228, 228);
+}
